@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ArunM</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="shortcut icon" type="image/png" href="https://user-images.githubusercontent.com/46804607/148957342-f8e5542c-931f-4915-9510-d35739fdd6b6.png">
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="https://user-images.githubusercontent.com/46804607/148947278-85015fae-0c9b-43c9-80cd-289aeb1f6647.jpg" width="500" height="80">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Interests</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#news" class="nav__link">Latest Updates</a></li>
+                    <li class="nav__item"><a href="index.html#Publications" class="nav__link">Publications</a></li>
+                    <li class="nav__item"><a href="index.html#Conference" class="nav__link">Conferences</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My projects</a></li>
+                    <li class="nav__item"><a href="index.html#contacts" class="nav__link">Social media & contacts</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                The title<strong>of this project is</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Variational Quantum Algorithm (VQA) to solve non-linear PDEs || <strong>Supervisor:</strong> Prof. Peter McMahon, Cornell </p>
+            <img src="https://user-images.githubusercontent.com/46804607/148955971-6dbf8dca-4a34-4baf-b4bf-35ff770f9f99.png" width="180" height="150" class="intro__img">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p><strong>Duration:</strong> February'21-Present</p>
+            <li> <i>Applications such as simulating large quantum systems or solving large-scale linear algebra problems are immensely challenging for classical computers due to their extremely high computational cost. Quantum computers promise to unlock these applications.</i></li>
+            <img src="https://user-images.githubusercontent.com/46804607/148956164-5e9d05db-5564-4e9a-82b4-08468ccdbf17.png" width="480" height="400">
+            <li> <i>Apart from finding lowest energy, VQA has a bunch of other applications like solving non-linear PDEs using VQAs.</i></li>
+            <li> <i>I am mostly involved, here, in the task of designing suitable ansatz to load initial conditions for a given PDE. I personally designed a particular QFT based ansatz that can represent complex valued (1-D) functions precisely</i></li>
+            <li> <i>We also had a look at partial Fourier series to represent different functions. Using that and uniformly controlled
+                rotations we can represent not only 1-D but even 2-D functions very efficiently</i></li>
+        
+        </div>
+        
+        <!-- Footer -->
+        <footer class="footer"  id="contacts">
+            <!-- replace with your own email address -->
+            <a href="mailto:arunavaangshuman@gmail.com" class="footer__link">arunavaangshuman@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/arunava-majumder-33500a167/"  target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://orcid.org/my-orcid?orcid=0000-0002-2601-7084"  target="_blank">
+                        <i class="fab fa-orcid"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.researchgate.net/profile/Arunava-Majumder-5"  target="_blank">
+                        <i class="fab fa-researchgate"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/ArunM69"  target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://scholar.google.com/citations?user=33vUekMAAAAJ&hl=en"  target="_blank">
+                        <i class="fas fa-graduation-cap"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
